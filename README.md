@@ -72,6 +72,8 @@ That's all. There are no limitations other than those implied by your hardware. 
 
 > $echo off
 
+> $file out.txt
+
 > (1/(2+(1/(2+(1/(2+(1/(2+(1/(2+(1/(2+(1/(2+(1/(2+(1/(2+(1/(2+3))))))))))))))))))))^(1+(2*(1+(2*(1+(2*(1+(2*(1+(2*(1+(2*(1+(2*3))))))))))))))
 
 > $div 1000000
