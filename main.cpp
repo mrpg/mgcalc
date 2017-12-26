@@ -329,18 +329,8 @@ MG_NUM resolve(const MG_EXPR& op, const MG_EXPR& a, const MG_EXPR& b) {
 		return primitive(a).factorial();
 	}
 	else {
-		//~ if (a.mode == 2 && b.mode == 2 && a.expr.size() == 0 && b.expr.size() == 0) {
-			//~ std::cerr << "l218" << std::endl;
-			//~ MG_EXPR newparse; // todo
-			//~ newparse.mode = 1;
-			//~ newparse.requires_parsing = true;
-			//~ newparse.num = execute({op});
-			//~ return newparse;
-		//~ }
-		//~ else {
-			std::cerr << "invalid op '" << op.expr << "' [" << op.mode << ", '" << a.expr << "', '" << b.expr << "']" << std::endl;
-			abort();
-		//~ }
+		std::cerr << "invalid op '" << op.expr << "' [" << op.mode << ", '" << a.expr << "', '" << b.expr << "']" << std::endl;
+		abort();
 	}
 }
 
